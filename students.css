@@ -1,0 +1,77 @@
+@import url('../css/header.css');
+@import url('../css/footer.css');
+@import url('../css/layout.css');
+
+.content_students {
+    padding-left: calc(50% - 1202px / 2);
+    padding-right: calc(50% - 1202px / 2);
+    padding-bottom: 519px;
+}
+
+.subtitle_students {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    color: #000000;
+    padding-top: 37px;
+    padding-bottom: 12px;
+}
+
+.students {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.student {
+    width: 200px;
+    margin-top: 8px;
+    position: relative;
+}
+
+.student_new {
+    position: absolute;
+    top: -12px;
+    right: -13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #3AA828;
+    border-radius: 20px;
+    padding: 1px 2px 1px 1px 5px;
+    text-transform: uppercase;
+}
+
+.student_name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+@media screen and (max-width: 1024px) {
+    /* Cтили для планшета */
+
+    .content_students {
+        padding-left: calc(50% - 736px / 2);
+        padding-right: calc(50% - 736px / 2);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* Cтили для мобильного телефона */
+    .content_students {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .students {
+        justify-content: center;
+    }
+}

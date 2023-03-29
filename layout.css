@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    max-width: 100%;
+}
+
+.body_size {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin: 0 auto;
+}
+
+.all {
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    /* Cтили для планшета */
+    .body_size {
+        padding-left: 10px;
+        padding-right: 10px;  
+    }
+}

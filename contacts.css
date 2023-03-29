@@ -1,0 +1,78 @@
+@import url('../css/header.css');
+@import url('../css/footer.css');
+@import url('../css/layout.css');
+
+.content_contacts {
+    padding-left: calc(50% - 1268px / 2);
+    padding-right: calc(50% - 1268px / 2);
+    padding-bottom: 360px;
+}
+
+.subtitle_contacts {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    padding-top: 33px;
+    padding-bottom: 25px;
+    padding-left: 286px;
+}
+
+.subtitle_address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+    padding-left: 288px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.text_address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    padding-left: 288px;
+}
+
+@media screen and (max-width: 1024px) {
+    /* Cтили для планшета */
+    .content_cotacts {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    
+    .subtitle_contacts {
+        padding-left: 32px;
+    }
+    
+    .subtitle_address {
+        padding-left: 32px;
+    }
+
+    .text_address {
+        padding-left: 32px;
+    }
+
+    iframe {
+        max-width: 100%;
+        max-height: 370px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* Cтили для мобильного телефона */
+    .content_cotacts {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    iframe {
+        max-width: 100%;
+        max-height: 370px;
+    }
+}
