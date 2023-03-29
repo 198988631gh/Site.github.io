@@ -1,0 +1,123 @@
+@import url('../css/header.css');
+@import url('../css/footer.css');
+@import url('../css/layout.css');
+
+.content {
+    padding-left: calc(50% - 911px / 2);
+    padding-right: calc(50% - 911px / 2);
+    padding-bottom: 187px;
+}
+
+.title {
+    flex-wrap: wrap;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    align-items: center;
+    color: #000000;
+    padding-top: 33px;
+    padding-bottom: 25px;
+}
+
+.contentphoto {
+    width: 523px;
+}
+
+.font_bold {
+    font-weight: 600;
+}
+
+.text_color_cursive {
+    color: #CF5510;
+    font-style: italic;
+}
+
+.content_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_section {
+    width: 634px;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.about_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.heading {
+    position: relative;
+    width: 129px;
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #646464;
+    padding-top: 50px;
+}
+
+.quotation-marks {
+    font-size: 64px;
+}
+
+.quotation-marks_left {
+  position: absolute;
+  left: -33px;
+  top: 55px;
+}
+
+.quotation-marks_right {
+  position: absolute;
+  left: 102px;
+}
+
+@media screen and (max-width: 1024px) {
+    /* Cтили для планшета */
+    .content {
+        padding-left: calc(50% - 736px / 2);
+        padding-right: calc(50% - 736px / 2);
+    }
+
+    .content_section {
+        width: 70%;
+    }
+
+    .content_info {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* Cтили для мобильного телефона */
+    .content {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .content_info {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 32px;
+        text-align: center;
+    }
+
+    .content_section {
+        width: 90%;
+    }
+}
